@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "AOSMultiModule"
 include(":app")
+include(":core:navigation")
+include(":features:home")
+include(":features:detail")
