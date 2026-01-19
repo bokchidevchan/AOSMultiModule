@@ -42,9 +42,9 @@ android {
 }
 
 dependencies {
-    implementation(project(":core:navigation"))
-    implementation(project(":features:home"))
-    implementation(project(":features:detail"))
+    implementation(projects.core.navigation)
+    implementation(projects.features.home)
+    implementation(projects.features.detail)
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
