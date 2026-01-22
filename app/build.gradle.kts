@@ -43,6 +43,9 @@ android {
 
 dependencies {
     implementation(projects.core.navigation)
+    implementation(projects.core.data)
+    implementation(projects.core.database)
+    implementation(projects.core.network)
     implementation(projects.features.home)
     implementation(projects.features.detail)
 
